@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(238, 238, 175);
+}
+
+html,body{
+    
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+
+    width: 40%;
+    background-color: #fbf4dd;
+    
+}
+
+.menu{
+    padding-top: 45px;
+    width: 60%;
+    text-align: right;
+    font-size: 40px;
+    background-color: #fbf4dd;
+
+}
+
+.menu a{
+    color: rgb(128, 69, 17);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right:15px;
+}
+
+section.sobre{
+    height: clc(100% - 200px);
+    position: relative;
+}
+
+.texto-sobre{
+    margin-top: 50px;
+}
+
+.texto-sobre h1{
+    font-size: 80px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color:  rgb(128, 69, 17);
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    cursor: pointer;
+
+}
+
+.titulo h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: coral;
+}
+
+.lista{
+
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(128, 69, 17);
+
+}
+
+.text{
+
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.alinhar{
+
+     
+
+}
